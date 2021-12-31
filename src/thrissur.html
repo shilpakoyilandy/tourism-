@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css"type="text/css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        body {
+          background-color: #f1f1f1;
+          padding: 20px;
+          font-family: Arial;
+        }
+        
+        /* Center website */
+        .main {
+          max-width: 100%;
+          margin: auto;
+        }
+        
+        h1 {
+          font-size: 50px;
+          word-break: break-all;
+        }
+        
+        .row {
+          margin: 8px -16px;
+        }
+        
+        /* Add padding BETWEEN each column */
+        .row,
+        .row > .column {
+          padding: 8px;
+        }
+        
+        /* Create four equal columns that floats next to each other */
+        .column {
+          float: left;
+          width: 25%;
+        }
+        
+        /* Clear floats after rows */ 
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        
+        /* Content */
+        .content {
+          background-color: white;
+          padding: 10px;
+        }
+        
+        /* Responsive layout - makes a two column-layout instead of four columns */
+        @media screen and (max-width: 900px) {
+          .column {
+            width: 50%;
+          }
+        }
+        
+        /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+        </head>
+        <body>
+        
+      
+        <div class="main">
+        
+          <section class="header">
+            <div class="row headrow">
+            <div class="col-lg-2">
+             <img src="../public/Island.jpg">   
+            </div>
+        <div class="col">
+            <nav class="navbar navbar-style">
+                <!-- <div class="container">
+                    <div class="navbar-header">
+                        
+                        <a href=""><img class="logo" src="tiger.jpg"></a>
+                    </div> -->
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                         <span class="navbar-toggler-icon"></span>
+                          </button>
+                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup"> 
+                             <a class="nav-item nav-link active  text-white font-weight-bold navfont" href="#">HOME </a>
+                            <a class="nav-item nav-link text-white font-weight-bold navfont" href="#">EXPERIENCE KERALA</a>
+                            <a class="nav-item nav-link text-white font-weight-bold navfont" href="#"></a>
+                            <a class="nav-item nav-link text-white font-weight-bold navfont" href="#">PLAN YOUR TRIP</a>
+                            <a class="nav-item nav-link text-white font-weight-bold navfont"href="#">THINGS TO DO</a>
+                            <div class="dropdown show">
+                                <a class="btn btn-outline-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    WHERE TO GO
+                                </a>
+                              
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                  <a class="dropdown-item" href="calicut.html">kozhikode</a>
+                                  <a class="dropdown-item" href="kannur.html">kannur</a>
+                                  <a class="dropdown-item" href="thrissur.html">thrissur</a>
+                                  <a class="dropdown-item" href="palakad.html">Palakkad</a>
+                                  <a class="dropdown-item" href="kollam.html">kollam</a>
+                                  <a class="dropdown-item" href="alapuzha.html">alapuzha</a>
+                                  <a class="dropdown-item" href="ernakulam.html">ernakulam</a>
+                                  <a class="dropdown-item" href="kasarcode.html">kasarcode</a>
+                                  <a class="dropdown-item" href="pathanamthitta.html">pathanamthitta</a>
+                                  <a class="dropdown-item" href="malapuram.html">malapuram</a>
+                                  <a class="dropdown-item" href="thiravanadhapuram.html">thiruvanandhapuram</a> 
+                                  <a class="dropdown-item" href="wayanad.html">wayanad</a>
+                                  <a class="dropdown-item" href="idduki.html">idukki</a>
+                                  <a class="dropdown-item" href="kottayam.html">kottayam</a>
+                                </div>
+                              </div>
+                              <a class="nav-item nav-link text-white font-weight-bold navfont"href="login.html">Login</a>
+                              <a class="nav-item nav-link text-white font-weight-bold navfont"href="register.html">Register</a>
+                          </div>
+                          </nav>
+                        <!-- </div> -->
+                </nav>
+        </div>
+        </section>  <div class="row"><div class="col text-center">
+        <h1>TOP ATTRACTION IN THRISSUR</h1>
+        <hr>
+      </div></div>
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+          <div class="column">
+            <div class="content">
+              <img src="../public/athirapally.jpg" alt="Mountains" class="img-fluid"style="width:100%">
+              <h3>Athirappilly waterfalls</h3>
+              
+              </div>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          
+          <div class="column">
+            <div class="content">
+            <img src="../public/vadakkunnathan-temple.jpg" alt="Lights" class="img-fluid" style="width:100%">
+              <h3>Vadakumnnathan Temple</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+            <img src="../public/kalamandapam.jpg" alt="Nature" class="img-fluid" style="width:100%">
+              <h3>kerala kalamandalam</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="content">
+            <img src="../public/shakthan-thampuran-palace.jpg" alt="palace" style="width:100%">
+              <h3>shakthan thampuran palace</h3>
+              <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+            </div>
+          </div>
+        <!-- END GRID -->
+        </div>
+        
+        <div class="content">
+          <img src="../public/chimmony.jpg" alt="dam" style="width:100%">
+          <h3>Chimmony Dam</h3>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+          <p>Lorem ipsum dolor sit amet, tempor prodesset eos no. Temporibus necessitatibus sea ei, at tantas oporteat nam. Lorem ipsum dolor sit amet, tempor prodesset eos no.</p>
+        </div>
+        
+        <!-- END MAIN -->
+        </div>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>     
+       
+       
+        </body>
+        </html>
+        
